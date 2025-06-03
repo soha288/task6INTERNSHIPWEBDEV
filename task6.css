@@ -1,0 +1,44 @@
+body{
+    background-color: #f7f7f7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formcontainer{
+    margin-top: 25vh;
+    background-color: rgb(255, 214, 125);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 350px;
+    padding: 30px;
+    border-radius: 5px;
+}
+label{
+    display: block;
+    margin-bottom: 15px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+h2{
+    text-align: center;
+    color: darkcyan;
+}
+button{
+    margin-left: 150px;
+    cursor: pointer;
+    border: none;
+    color: black;
+}
+.error {
+    color: red;
+    font-size: 0.8em;
+  }
+  
+  .success {
+    color: green;
+    margin-top: 15px;
+  }
+  

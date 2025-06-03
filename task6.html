@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="task6.css">
+</head>
+<body>
+  <div class="formcontainer">
+    <form id="contactform">
+      <h2>CONTACT US</h2>
+
+      <label for="name">NAME:
+        <input type="text" id="name" placeholder="ENTER YOUR NAME" />
+        <small class="error" id="nameerror"></small>
+      </label>
+
+      <label for="email">EMAIL:
+        <input type="email" id="email" placeholder="ENTER YOUR EMAIL" />
+        <small class="error" id="emailerror"></small>
+      </label>
+
+      <label for="message">MESSAGE:
+        <textarea id="message" placeholder="Your message..."></textarea>
+        <small class="error" id="messageerror"></small>
+      </label>
+
+      <button type="submit">SUBMIT</button>
+    </form>
+
+    <div id="successmsg" class="success"></div>
+  </div>
+
+  <!-- SCRIPT BELOW EVERYTHING -->
+  <script src="javascripttask6.js"></script>
+</body>
+</html>
